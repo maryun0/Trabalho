@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/maryun0/Trabalho/issues"
   },
-  "homepage": "https://github.com/maryun0/Trabalho#readme"
+  "homepage": "https://github.com/maryun0/Trabalho#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
