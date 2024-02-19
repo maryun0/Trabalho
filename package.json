@@ -1,0 +1,27 @@
+{
+  "name": "trabalho",
+  "version": "1.0.0",
+  "description": "projeto",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryun0/Trabalho.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "javascript",
+    "programação"
+  ],
+  "author": "Marcelo Yuassa Nogai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryun0/Trabalho/issues"
+  },
+  "homepage": "https://github.com/maryun0/Trabalho#readme"
+}
