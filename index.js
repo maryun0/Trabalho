@@ -2,7 +2,7 @@ import  express  from 'express';
 import process from 'process';
 import path from 'path';
 
-const host = '0.0.0.0';
+const host = 'localhost';
 const porta = 3000;
 
 const app = express();
