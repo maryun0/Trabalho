@@ -10,7 +10,7 @@ const app = express();
 app.use(express.static(path.join(process.cwd(), 'publico', 'site.html')));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(process.cwd(), 'publico', 'conteudo.html'));
+    res.sendFile(path.join(process.cwd(), 'publico', 'site.html'));
 });
 
 app.listen(porta, host, ()=>{
