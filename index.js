@@ -7,7 +7,7 @@ const porta = 3000;
 
 const app = express();
 
-app.use(express.static(path.join(process.cwd(), 'publico')));
+app.use(express.static(path.join(process.cwd(), 'publico', 'site.html')));
 
 app.listen(porta, host, ()=>{
     console.log(`Servidor escutando em http://${host}:${porta}`)
