@@ -1,21 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const precoIngresso = 50; // Preço fixo do ingresso
+    const precoIngresso = 50; 
     const botaoCalcular = document.getElementById('calcular-valor');
     const botaoComprar = document.getElementById('comprar-ingresso');
     const quantidadeCompra = document.getElementById('quantidade-compra');
     const quantidadeIngressosSpan = document.getElementById('quantidade-ingressos');
     const valorTotalSpan = document.getElementById('valor-total');
-
     botaoCalcular.addEventListener('click', function() {
         const quantidade = parseInt(quantidadeCompra.value, 10);
         const valorTotal = quantidade * precoIngresso;
         valorTotalSpan.textContent = valorTotal.toFixed(2);
     });
-
     botaoComprar.addEventListener('click', function() {
         const quantidade = parseInt(quantidadeCompra.value, 10);
-
-        // Verifica se a quantidade desejada é maior que 0
         if (quantidade > 0) {
             fetch('/comprar-ingresso', {
                 method: 'POST',

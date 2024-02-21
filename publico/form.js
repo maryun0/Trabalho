@@ -3,7 +3,7 @@ document.getElementById('credit-card-form').addEventListener('submit', function(
     const cardName = document.getElementById('cardName').value;
     const expiryDate = document.getElementById('expiryDate').value;
     const cvv = document.getElementById('cvv').value;
-
+    
     if (!cardNumber || !cardName || !expiryDate || !cvv) {
         alert('Por favor, preencha todos os campos.');
         event.preventDefault();
