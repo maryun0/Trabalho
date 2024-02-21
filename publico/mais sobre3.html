@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Detalhes do Evento - Compra de Ingressos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fundo.css">
+</head>
+<body>
+    <header class="jumbotron jumbotron-fluid bg-primary text-white text-center mb-4">
+        <div class="container">
+            <h1 class="display-4">Ingresso.com</h1>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row mb-5">
+            <div class="col-12">
+                <h2 class="text-center">Sobre o Evento</h2>
+                <p class="text-justify">A Brasil Game Show (BGS) é a maior feira de jogos eletrônicos da América Latina, realizada anualmente no Brasil. Ela reúne desenvolvedores, jogadores e fãs para apresentar novidades, jogos, tecnologias e realizar competições de esports. É um evento chave para a indústria de games na região.</p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="BGS.jpg" class="img-fluid rounded-start" alt="Imagem do Evento">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title">BGS</h2>
+                        <p class="card-text"><strong>Data e Hora:</strong> 17/05/2024, 15h</p>
+                        <p class="card-text"><strong>Local:</strong> Estado Unidos, NY</p>
+                        <p class="card-text"><strong>Preço do Ingresso:</strong> R$ 110,00</p>
+                        <p class="card-text"><strong>Quantidade Disponível:</strong> <span id="quantidade-ingressos">1750</span></p>
+                        <div class="mb-3">
+                            <label for="quantidade-compra" class="form-label">Quantidade:</label>
+                            <input type="number" class="form-control" id="quantidade-compra" value="1" min="1" max="999999999">
+                        </div>
+                        <button id="comprar-ingresso" class="btn btn-primary btn-block">Comprar Ingresso</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="maissobrescript.js"></script>
+</body>
+</html>
